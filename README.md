@@ -77,9 +77,9 @@ This will:
 Update `src/main/resources/application.properties` (or `application.yml`) with your database credentials if they differ from the defaults:
 
 ```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/test_db
-spring.datasource.username=assessment
-spring.datasource.password=redrum
+spring.datasource.url=jdbc:mysql://localhost:3306/<DB_NAME>
+spring.datasource.username=<YOUR_DB_USERNAME>
+spring.datasource.password=<YOUR_DB_PASSWORD>
 ```
 
 ### 4. Build and run
