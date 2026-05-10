@@ -1,0 +1,67 @@
+Starting a Gradle Daemon, 6 stopped Daemons could not be reused, use --status for details
+> Task :compileJava
+> Task :processResources
+> Task :classes
+> Task :bootRunMainClassName
+
+> Task :bootRun
+20:29:50.398 [Thread-0] DEBUG org.springframework.boot.devtools.restart.classloader.RestartClassLoader - Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@48625a0d
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.18)
+
+2026-05-09 20:29:50.944  INFO 28877 --- [  restartedMain] c.takehome.stayease.StayeaseApplication  : Starting StayeaseApplication using Java 11.0.19 on bshourya6 with PID 28877 (/tmp/gradle_builds/stayease/stayease/classes/java/main started by crio-user in /home/crio-user/workspace/int-sprint/bshourya6-ME_BUILDOUT_STAYEASE)
+2026-05-09 20:29:50.946  INFO 28877 --- [  restartedMain] c.takehome.stayease.StayeaseApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-05-09 20:29:51.020  INFO 28877 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-09 20:29:51.020  INFO 28877 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-09 20:29:52.008  INFO 28877 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-09 20:29:52.076  INFO 28877 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 4 JPA repository interfaces.
+2026-05-09 20:29:52.831  INFO 28877 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2026-05-09 20:29:52.840  INFO 28877 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-09 20:29:52.841  INFO 28877 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-05-09 20:29:52.910  INFO 28877 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-05-09 20:29:52.910  INFO 28877 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1889 ms
+2026-05-09 20:29:53.099  INFO 28877 --- [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-09 20:29:53.134  INFO 28877 --- [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2026-05-09 20:29:53.247  INFO 28877 --- [  restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-05-09 20:29:53.341  INFO 28877 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-09 20:29:53.737  INFO 28877 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-09 20:29:53.752  INFO 28877 --- [  restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2026-05-09 20:29:54.658  INFO 28877 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-05-09 20:29:54.669  INFO 28877 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-09 20:29:55.566  INFO 28877 --- [  restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7608fa04, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@29a67b00, org.springframework.security.web.context.SecurityContextPersistenceFilter@113c83d5, org.springframework.security.web.header.HeaderWriterFilter@6011b9f5, org.springframework.security.web.authentication.logout.LogoutFilter@1fced2ef, com.takehome.stayease.security.config.JwtAuthenticationFilter@1f09181b, com.takehome.stayease.security.config.SecurityConfiguration$1@330386d6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@34cf56bf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@39ad2b0c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@42bb50d9, org.springframework.security.web.session.SessionManagementFilter@30877455, org.springframework.security.web.access.ExceptionTranslationFilter@389c77d1, org.springframework.security.web.access.intercept.AuthorizationFilter@394be50f]
+2026-05-09 20:29:55.646  WARN 28877 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-09 20:29:56.149  INFO 28877 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-05-09 20:29:56.180  INFO 28877 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2026-05-09 20:29:56.198  INFO 28877 --- [  restartedMain] c.takehome.stayease.StayeaseApplication  : Started StayeaseApplication in 5.766 seconds (JVM running for 6.418)
+2026-05-09 20:29:57.237  INFO 28877 --- [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-09 20:29:57.238  INFO 28877 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-09 20:29:57.240  INFO 28877 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-05-09 20:29:57.262  WARN 28877 --- [nio-8081-exec-1] c.t.s.s.config.JwtAuthenticationFilter   : No valid Authorization header found
+2026-05-09 20:29:57.672  WARN 28877 --- [nio-8081-exec-2] c.t.s.s.config.JwtAuthenticationFilter   : No valid Authorization header found
+2026-05-09 20:29:57.830  WARN 28877 --- [nio-8081-exec-3] c.t.s.s.config.JwtAuthenticationFilter   : No valid Authorization header found
+2026-05-09 20:29:57.988  WARN 28877 --- [nio-8081-exec-5] c.t.s.s.config.JwtAuthenticationFilter   : No valid Authorization header found
+2026-05-09 20:29:58.026  WARN 28877 --- [nio-8081-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.takehome.stayease.security.model.exchange.AuthenticationResponse> com.takehome.stayease.security.controller.AuthenticationController.register(com.takehome.stayease.security.model.exchange.RegisterRequest): [Field error in object 'registerRequest' on field 'password': rejected value [weak]; codes [Length.registerRequest.password,Length.password,Length.java.lang.String,Length]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [registerRequest.password,password]; arguments []; default message [password],20,6]; default message [length must be between 6 and 20]] ]
+2026-05-09 20:29:58.031  WARN 28877 --- [nio-8081-exec-6] c.t.s.s.config.JwtAuthenticationFilter   : No valid Authorization header found
+2026-05-09 20:29:58.037  WARN 28877 --- [nio-8081-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.takehome.stayease.security.model.exchange.AuthenticationResponse> com.takehome.stayease.security.controller.AuthenticationController.register(com.takehome.stayease.security.model.exchange.RegisterRequest): [Field error in object 'registerRequest' on field 'email': rejected value [invalid-email]; codes [Email.registerRequest.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [registerRequest.email,email]; arguments []; default message [email],[Ljavax.validation.constraints.Pattern$Flag;@279a503d,.*]; default message [must be a well-formed email address]] ]
+2026-05-09 20:29:58.042  WARN 28877 --- [nio-8081-exec-7] c.t.s.s.config.JwtAuthenticationFilter   : No valid Authorization header found
+2026-05-09 20:29:58.213  INFO 28877 --- [nio-8081-exec-7] c.t.s.security.config.ApplicationConfig  : Loaded user customer.be519bdf-0132-4dcd-9911-66c259bcd138@test.com with roles: CUSTOMER
+2026-05-09 20:29:58.359  WARN 28877 --- [nio-8081-exec-8] c.t.s.s.config.JwtAuthenticationFilter   : No valid Authorization header found
+2026-05-09 20:29:58.365  INFO 28877 --- [nio-8081-exec-8] c.t.s.security.config.ApplicationConfig  : Loaded user customer.be519bdf-0132-4dcd-9911-66c259bcd138@test.com with roles: CUSTOMER
+2026-05-09 20:29:58.518  WARN 28877 --- [nio-8081-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.authentication.BadCredentialsException: Bad credentials]
+2026-05-09 20:29:58.524  WARN 28877 --- [io-8081-exec-10] c.t.s.s.config.JwtAuthenticationFilter   : No valid Authorization header found
+2026-05-09 20:29:58.755  INFO 28877 --- [nio-8081-exec-2] c.t.s.security.config.ApplicationConfig  : Loaded user admin.99f331a9-14a1-4221-91f8-5b0e78cbbc64@test.com with roles: ADMIN
+2026-05-09 20:29:58.823  INFO 28877 --- [nio-8081-exec-4] c.t.s.security.config.ApplicationConfig  : Loaded user manager.6f62006a-1b89-446b-b570-f74f3cdf7376@test.com with roles: HOTEL_MANAGER
+2026-05-09 20:29:58.843  INFO 28877 --- [nio-8081-exec-6] c.t.s.security.config.ApplicationConfig  : Loaded user manager.6f62006a-1b89-446b-b570-f74f3cdf7376@test.com with roles: HOTEL_MANAGER
+2026-05-09 20:29:58.891  INFO 28877 --- [nio-8081-exec-7] c.t.s.security.config.ApplicationConfig  : Loaded user admin.99f331a9-14a1-4221-91f8-5b0e78cbbc64@test.com with roles: ADMIN
+2026-05-09 20:29:58.932  INFO 28877 --- [nio-8081-exec-8] c.t.s.security.config.ApplicationConfig  : Loaded user manager.6f62006a-1b89-446b-b570-f74f3cdf7376@test.com with roles: HOTEL_MANAGER
+2026-05-09 20:29:58.948  INFO 28877 --- [io-8081-exec-10] c.t.s.security.config.ApplicationConfig  : Loaded user admin.99f331a9-14a1-4221-91f8-5b0e78cbbc64@test.com with roles: ADMIN
+2026-05-09 20:29:58.983  INFO 28877 --- [nio-8081-exec-4] c.t.s.security.config.ApplicationConfig  : Loaded user customer.be519bdf-0132-4dcd-9911-66c259bcd138@test.com with roles: CUSTOMER
+Username for the booking customer : customer.be519bdf-0132-4dcd-9911-66c259bcd138@test.com2026-05-09 20:29:59.044  INFO 28877 --- [nio-8081-exec-6] c.t.s.security.config.ApplicationConfig  : Loaded user customer.be519bdf-0132-4dcd-9911-66c259bcd138@test.com with roles: CUSTOMER
+Username for the booking customer : customer.be519bdf-0132-4dcd-9911-66c259bcd138@test.com2026-05-09 20:29:59.059  WARN 28877 --- [nio-8081-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 404 NOT_FOUND "No rooms available"]
+2026-05-09 20:29:59.068  INFO 28877 --- [nio-8081-exec-7] c.t.s.security.config.ApplicationConfig  : Loaded user customer.be519bdf-0132-4dcd-9911-66c259bcd138@test.com with roles: CUSTOMER
